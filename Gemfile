@@ -5,6 +5,13 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'stripe'
+gem 'fog-aws'
+gem 'carrierwave', '~> 1.2.1'
+gem 'mini_magick'
+gem 'figaro'
+gem 'dotenv-rails'
+
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
