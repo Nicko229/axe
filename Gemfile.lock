@@ -198,7 +198,7 @@ DEPENDENCIES
   devise
   dotenv-rails
   figaro
-  fog-aws
+  fog-aws (~> 3.0.0)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   mini_magick

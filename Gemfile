@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'stripe'
-gem 'fog-aws'
+gem 'fog-aws', '~> 3.0.0'
 gem 'carrierwave', '~> 1.2.1'
 gem 'mini_magick'
 gem 'figaro'
