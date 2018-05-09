@@ -6,6 +6,7 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     @products = Product.all
+    authorize @products
   end
 
   # GET /products/1
@@ -16,10 +17,13 @@ class ProductsController < ApplicationController
   # GET /products/new
   def new
     @product = Product.new
+    authorize @product
   end
 
   # GET /products/1/edit
   def edit
+    @product.user = current_user
+
   end
 
 
@@ -28,6 +32,8 @@ class ProductsController < ApplicationController
   def create
     @product = Product.new(product_params)
     @product.user = current_user
+
+    authorize @product
 
     @current_user_product = current_user
 
@@ -71,6 +77,7 @@ class ProductsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_product
       @product = Product.find(params[:id])
+      authorize @product
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

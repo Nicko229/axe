@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'pundit'
 gem 'sendgrid-ruby'
 gem 'stripe'
 gem 'fog-aws', '~> 3.0.0'
