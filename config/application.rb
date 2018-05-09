@@ -1,5 +1,3 @@
-ActionMailer::Base.delivery_method = :smtp
-
 require_relative 'boot'
 
 require "rails"
