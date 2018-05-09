@@ -29,10 +29,13 @@ class ProductsController < ApplicationController
     @product = Product.new(product_params)
     @product.user = current_user
 
+    @current_user_product = current_user
+
     respond_to do |format|
       if @product.save
         format.html { redirect_to @product, notice: 'Product was successfully created.' }
         format.json { render :show, status: :created, location: @product }
+        UserNotifierMailer.send_create_email(@current_user_product).deliver
       else
         format.html { render :new }
         format.json { render json: @product.errors, status: :unprocessable_entity }
