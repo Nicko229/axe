@@ -32,7 +32,7 @@ https://www.figma.com/file/FtZniHcwtiM0wu6cTnpF2ieW/Axe-Market-1000?node-id=4%3A
 
 ## ERD for Axe Market 1000
 
-/Users/tonyrat/Documents/axe_market/axe-market-1000/app/assets/images/ERD.png
+![Image of ERD](https://raw.githubusercontent.com/Nicko229/axe/master/app/assets/images/ERD.png)
 
 https://www.dbdesigner.net/designer/schema/168410
 
