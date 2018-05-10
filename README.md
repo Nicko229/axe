@@ -18,17 +18,47 @@ Users will login using their email and a password. From there they will be able 
 
 ## User Stories
 
+![Image of User Stories](https://raw.githubusercontent.com/Nicko229/axe/master/app/assets/images/trello.png)
+
 https://trello.com/b/s5qxiaie/axe-market-1000
+
+## Detailed User Stories
+Buyer should be able to determine the style of music played on a guitar
+Feature: Guitar style spec
+•	As a novice musician
+•	I want to buy a guitar that suits the styles of music I want to play
+•	Because I want an instrument that is compatible in the genres that I like
+Scenario: User buys steel string guitar
+•	Given I'm purchasing a guitar
+•	When I go to the specs I can see the styles of music that the instrument is compatible with
+•	Then I can make an educated purchase
+
+Seller should be able to receive an email that confirms purchase
+Feature: Send confirmation email to seller directly after a purchase
+•	As a Seller
+•	I want to be notified immediately when my guitar has been sold
+•	Because I want to organise postage asap
+Scenario: User buys a guitar from Axe Market 1000
+•	Given I'm a seller
+•	When I sell a product
+•	And I am required to post it to the buyer
+•	I receive a confirmation of sale email from Axe Market 1000
+•	Then I can prepare postage for the item in question
+
 
 ## Workflow Diagram of User Journeys
 
-app/assets/images/Screen Shot/workflow_diagram.png
+![Image of Wireframes](https://raw.githubusercontent.com/Nicko229/axe/master/app/assets/images/workflow_diagram.png)
+
+https://www.figma.com/file/FtZniHcwtiM0wu6cTnpF2ieW/Axe-Market-1000
 
 # Wireframes for at least 5 screens
 
+![Image of Wireframes](https://raw.githubusercontent.com/Nicko229/axe/master/app/assets/images/wireframes.png)
+
 https://www.figma.com/file/FtZniHcwtiM0wu6cTnpF2ieW/Axe-Market-1000?node-id=4%3A0
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 
 ## ERD for Axe Market 1000
 
@@ -38,6 +68,6 @@ https://www.dbdesigner.net/designer/schema/168410
 
 ## Project Plan and Extimation
 
-https://trello.com/b/s5qxiaie/axe-market-1000 &&
+![Image of Trellogantt Project Estimation](https://raw.githubusercontent.com/Nicko229/axe/master/app/assets/images/project_estimation.png)
 
-app/assets/images/project_estimation.png
+https://app.trellogantt.com/gantt
