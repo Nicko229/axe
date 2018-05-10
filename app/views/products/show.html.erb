@@ -1,5 +1,9 @@
 <p id="notice"><%= notice %></p>
 
+<div class="guitar">
+  <%= image_tag @product.avatar.url, :size => "200x300" %>
+</div>
+
 <p>
   <strong>Name:</strong>
   <%= @product.name %>
@@ -15,12 +19,6 @@
   <%= @product.price %>
 </p>
 
-<p>
-  <strong>Image:</strong>
-  <%= image_tag @product.avatar.url %>
-</p>
-
-
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>
 
@@ -33,7 +31,7 @@
       </div>
     <% end %>
     <label class="amount">
-      <span>Amount: $5.00</span>
+      <span>Amount: <%= @product.price %> </span>
     </label>
   </article>
 
