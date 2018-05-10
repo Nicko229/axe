@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   resources :profiles
   resources :products
   resources :charges
+  get "/about", to: "static_pages#about"
   devise_for :users
   devise_for :views
   root :to => "products#index"

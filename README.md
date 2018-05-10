@@ -92,3 +92,23 @@ https://www.dbdesigner.net/designer/schema/168410
 ![Image of Trellogantt Project Estimation](https://raw.githubusercontent.com/Nicko229/axe/master/app/assets/images/project_estimation.png)
 
 https://app.trellogantt.com/gantt
+
+# Link to Axe Market 1000
+
+https://axe-market.herokuapp.com/
+
+# Link to Github repository
+
+https://github.com/Nicko229/axe.git
+
+# Future Development
+
+Considering the timeframe and my difficulties with the gems, I would like to style the app more with CSS. The layout is not quite how I designed it yet. 
+
+I would like to have emails sent to both buyer and seller once the product has been purchased. Currently I only have an email sent to the seller when they post their listing. 
+
+Currently once you have paid on stripe, it redirects you to a confirmation page. But this page does not display the navbar. I would like it to have the navbar so that the customer can redirect to a page of their choosing. 
+
+## Code Review - Alex Green
+
+Alex and I reviewed each other's code for payment confirmation pages. They created a back button inside an <a> tag to link back to the home page. It was an effective linking tool. We both discussed adding the navbar for navigation if time allowed. We discussed continuity of styling for this page. 
