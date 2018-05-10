@@ -23,9 +23,9 @@ Users will login using their email and a password. From there they will be able 
 https://trello.com/b/s5qxiaie/axe-market-1000
 
 ## Detailed User Stories
-Buyer should be able to determine the style of music played on a guitar
+# Buyer should be able to determine the style of music played on a guitar
 
-Feature: Guitar style spec
+# Feature: Guitar style spec
 
 •	As a novice musician
 
@@ -33,7 +33,8 @@ Feature: Guitar style spec
 
 •	Because I want an instrument that is compatible in the genres that I like
 
-Scenario: User buys steel string guitar
+
+# Scenario: User buys steel string guitar
 
 •	Given I'm purchasing a guitar
 
@@ -41,16 +42,19 @@ Scenario: User buys steel string guitar
 
 •	Then I can make an educated purchase
 
-Seller should be able to receive an email that confirms purchase
 
-Feature: Send confirmation email to seller directly after a purchase
+# Seller should be able to receive an email that confirms purchase
+
+# Feature: Send confirmation email to seller directly after a purchase
 
 •	As a Seller
 
 •	I want to be notified immediately when my guitar has been sold
 
 •	Because I want to organise postage asap
-Scenario: User buys a guitar from Axe Market 1000
+
+
+#Scenario: User buys a guitar from Axe Market 1000
 
 •	Given I'm a seller
 
