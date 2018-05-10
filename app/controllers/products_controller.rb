@@ -6,6 +6,8 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     @products = Product.all
+    @search = Product.search(params[:q])
+    @products = @search.result
     authorize @products
   end
 
@@ -22,8 +24,6 @@ class ProductsController < ApplicationController
 
   # GET /products/1/edit
   def edit
-    @product.user = current_user
-
   end
 
 
