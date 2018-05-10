@@ -28,7 +28,11 @@ app/assets/images/Screen Shot/workflow_diagram.png
 
 https://www.figma.com/file/FtZniHcwtiM0wu6cTnpF2ieW/Axe-Market-1000?node-id=4%3A0
 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 ## ERD for Axe Market 1000
+
+/Users/tonyrat/Documents/axe_market/axe-market-1000/app/assets/images/ERD.png
 
 https://www.dbdesigner.net/designer/schema/168410
 
