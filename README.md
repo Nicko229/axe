@@ -24,25 +24,42 @@ https://trello.com/b/s5qxiaie/axe-market-1000
 
 ## Detailed User Stories
 Buyer should be able to determine the style of music played on a guitar
+
 Feature: Guitar style spec
+
 •	As a novice musician
+
 •	I want to buy a guitar that suits the styles of music I want to play
+
 •	Because I want an instrument that is compatible in the genres that I like
+
 Scenario: User buys steel string guitar
+
 •	Given I'm purchasing a guitar
+
 •	When I go to the specs I can see the styles of music that the instrument is compatible with
+
 •	Then I can make an educated purchase
 
 Seller should be able to receive an email that confirms purchase
+
 Feature: Send confirmation email to seller directly after a purchase
+
 •	As a Seller
+
 •	I want to be notified immediately when my guitar has been sold
+
 •	Because I want to organise postage asap
 Scenario: User buys a guitar from Axe Market 1000
+
 •	Given I'm a seller
+
 •	When I sell a product
+
 •	And I am required to post it to the buyer
+
 •	I receive a confirmation of sale email from Axe Market 1000
+
 •	Then I can prepare postage for the item in question
 
 
