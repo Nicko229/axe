@@ -6,9 +6,36 @@
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
   </head>
 
   <body>
+
+    <nav>
+      <div class="toggle">
+        <i class="fas fa-bars menu"></i>
+      </div>
+      <ul class="body">
+        <li class="li"><a href="#">Home</a></li>
+        <li class="li"><a href="#">About</a></li>
+        <li class="li"><a href="#">Buy</a></li>
+        <li class="li"><a href="#">Sell</a></li>
+        <li class="li"><a href="#">Buying Guide</a></li> 
+        <li class="li"><a href="#">Contact</a></li>
+             
+      </ul>
+    </nav>
+
+    <%= image_tag "header.jpg", class: "banner" %>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.menu').click(function(){
+          $('ul').toggleClass('active');
+        })
+      })
+    </script>
 
 <div>
   <ul class="hmenu">
