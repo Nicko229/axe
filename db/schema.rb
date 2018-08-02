@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180509233247) do
+ActiveRecord::Schema.define(version: 20180801033100) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,9 +21,8 @@ ActiveRecord::Schema.define(version: 20180509233247) do
     t.integer "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "user_id"
     t.string "avatar"
-    t.index ["user_id"], name: "index_products_on_user_id"
+    t.integer "user_id"
   end
 
   create_table "profiles", force: :cascade do |t|
@@ -71,5 +70,4 @@ ActiveRecord::Schema.define(version: 20180509233247) do
     t.index ["reset_password_token"], name: "index_views_on_reset_password_token", unique: true
   end
 
-  add_foreign_key "products", "users"
 end
